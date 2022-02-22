@@ -1,0 +1,12 @@
+.botao-container {
+  padding: 50px 170px;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 150px;
+}

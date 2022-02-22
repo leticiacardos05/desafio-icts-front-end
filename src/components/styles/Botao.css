@@ -1,0 +1,41 @@
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.botao.editar {
+  background: transparent;
+  border: 1px solid #fa7f3a;
+  color: #000000;
+}
+
+.botao.editar:hover {
+  color: #fa7f3a;
+}
+
+.botao.excluir {
+  background: #f03838;
+  color: #ffffff;
+}
+
+.botao.excluir:hover {
+  background: #f15a5a;
+}
+
+.botao.novo {
+  background: #29bb52;
+  color: #ffffff;
+}
+
+.botao.novo:hover {
+  background: #4bce70;
+}

@@ -1,0 +1,56 @@
+.cartao-produto {
+  width: 353px;
+  height: 570px;
+  background: #ffffff;
+  border: 1px solid #b3b3b3;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.cartao-produto .descricao-container {
+  height: 200px;
+}
+
+.cartao-produto .descricao-container .descricao {
+  height: 200px;
+  line-height: 25px;
+  margin: 0;
+  overflow: auto;
+}
+
+.cartao-produto .descricao-container .imagem {
+  width: 150px;
+  height: 200px;
+}
+
+.cartao-produto .conteudo {
+  cursor: pointer;
+}
+
+.cartao-produto .titulo {
+  font-weight: 200;
+  font-size: 30px;
+  color: #000000;
+}
+
+.cartao-produto .subtitulo {
+  font-weight: normal;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.cartao-produto .preco {
+  font-weight: 500;
+  font-size: 42px;
+  color: #fa7f3a;
+  margin-bottom: 30px;
+}
+
+.cartao-produto .preco .moeda {
+  font-size: 24px;
+  margin-right: 5px;
+  position: relative;
+  top: -12px;
+}
